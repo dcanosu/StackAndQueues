@@ -96,7 +96,8 @@ using Backend;
 // }
 
 // For Queue
-    var queue = new QueueUsingArray<string>(5);
+    // var queue = new QueueUsingArray<string>(5);
+    var queue = new QueueUsingList<string>();
     var option = string.Empty;
 
     do
